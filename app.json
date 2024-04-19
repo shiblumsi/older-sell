@@ -2,6 +2,7 @@
   "expo": {
     "name": "older-sell",
     "slug": "older-sell",
+    "scheme": "older-sell",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
